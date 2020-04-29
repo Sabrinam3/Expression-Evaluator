@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ee">
+      <UniqueIdentifier>{716e93f7-50b7-44c9-ba02-aa9b723489be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ee">
+      <UniqueIdentifier>{d8da8caf-475a-4e5e-88d8-f4784b013c8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ut_expression_evaluator_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ee_common\src\boolean.cpp">
+      <Filter>Source Files\ee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ee_common\src\expression_evaluator.cpp">
+      <Filter>Source Files\ee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ee_common\src\function.cpp">
+      <Filter>Source Files\ee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ee_common\src\integer.cpp">
+      <Filter>Source Files\ee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ee_common\src\operand.cpp">
+      <Filter>Source Files\ee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ee_common\src\operation.cpp">
+      <Filter>Source Files\ee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ee_common\src\operator.cpp">
+      <Filter>Source Files\ee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ee_common\src\parser.cpp">
+      <Filter>Source Files\ee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ee_common\src\real.cpp">
+      <Filter>Source Files\ee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ee_common\src\RPNEvaluator.cpp">
+      <Filter>Source Files\ee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ee_common\src\token.cpp">
+      <Filter>Source Files\ee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ee_common\src\tokenizer.cpp">
+      <Filter>Source Files\ee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ee_common\src\variable.cpp">
+      <Filter>Source Files\ee</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\phase_list\ut_test_phase.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ee_common\inc\boolean.hpp">
+      <Filter>Header Files\ee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ee_common\inc\expression_evaluator.hpp">
+      <Filter>Header Files\ee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ee_common\inc\function.hpp">
+      <Filter>Header Files\ee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ee_common\inc\integer.hpp">
+      <Filter>Header Files\ee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ee_common\inc\operand.hpp">
+      <Filter>Header Files\ee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ee_common\inc\operation.hpp">
+      <Filter>Header Files\ee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ee_common\inc\operator.hpp">
+      <Filter>Header Files\ee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ee_common\inc\parser.hpp">
+      <Filter>Header Files\ee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ee_common\inc\pseudo_operation.hpp">
+      <Filter>Header Files\ee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ee_common\inc\real.hpp">
+      <Filter>Header Files\ee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ee_common\inc\RPNEvaluator.hpp">
+      <Filter>Header Files\ee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ee_common\inc\token.hpp">
+      <Filter>Header Files\ee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ee_common\inc\tokenizer.hpp">
+      <Filter>Header Files\ee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ee_common\inc\variable.hpp">
+      <Filter>Header Files\ee</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
